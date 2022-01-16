@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+
+ * {
+    box-sizing: border-box;
+ }
+
+ body {
+     background-color: rgb(255, 255, 255);
+     display: flex;
+     flex-direction: column;
+     color: rgb(0, 0, 0);
+     align-items: center;
+     justify-content: center;
+     height: 100vh;
+     font-family: 'Lato', 'sans-serif';
+ }
+
+ .seat {
+     background-color: rgb(143, 143, 143);
+     height: 19px;
+     width: 20px;
+     margin: 7px;
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+ }
+
+ .baris {
+     display: flex;
+ }
+
+ .movie-container {
+     margin: 20px 0;
+ }
+
+ .movie-container select {
+     background-color: rgb(255, 124, 124);
+     border: 0;
+     border-radius: 5px;
+     font-size: 14px;
+     margin-left: 10px;
+     padding: 5px 15px 5px 15px;
+     -moz-appearance: none;
+     -webkit-appearance: none;
+     appearance: none;
+ }
+
+ 
+ .seat.dipilih {
+     background-color: rgb(95, 222, 226);
+
+ }
+
+ .seat.dibooking {
+     background-color: rgb(121, 216, 27);
+ }
+
+ .seat.huruf {
+     background-color: #f1f1f1;
+ }
+
+ .seat:nth-of-type(1) {
+     margin-right: 18px;
+ }
+
+ .seat:not(.huruf):hover {
+     cursor: pointer;
+     transform: scale(1,2);
+ } 
+ .showcase .seat:not(.huruf):hover {
+     cursor: default;
+     transform: scale(1);
+ }
+
+
+
+ .showcase {
+     background-color: darkgray;
+     padding: 5px 10px;
+     border-radius: 5px;
+     color: rgb(255, 255, 255);
+     list-style-type: none;
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .showcase li {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin: 0 10px;
+ }
+
+
+ .screen {
+    background-color: rgb(248, 230, 207);
+    height: 70px;
+    width: 100%;
+    margin: 15px 0;
+    transform: rotateX(-25deg);
+    box-shadow: 0 3px 10px #caa977;
+ }
+
+ .container {
+     perspective: 1000px;
+     margin-bottom: 10px;
+ }
+
+ p.text {
+     margin: 5px 0;
+ }
+
+ p.text span {
+     color: rgb(12, 217, 231);
+ }
+
+ 

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Ticket Bioskop</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="movie-container">
+        <label>Film dipilih :</label>
+        <select id="movie">
+            <option value="41000">Spider-Man: No School (40K)</option>
+        </select>
+    </div>
+
+        <ul class="showcase">
+            <li>
+                <div class="seat"></div>
+                <small>Kosong</small>
+            </li>
+            <li>
+                <div class="seat dipilih"></div>
+                <small>Dipilih</small>
+            </li>
+            <li>
+                <div class="seat dibooking"></div>
+                <small>Sudah di booking</small>
+            </li>
+            <li>
+                <div class="seat huruf"></div>
+                <small>Baris</small>
+            </li>
+        </ul>
+
+        <div class="container">
+            <div class="screen"></div>
+            <div class="baris">
+                <div class="seat huruf"><center>A</center></div>
+                <div class="seat"><center>1</center></div>
+                <div class="seat"><center>2</center></div>
+                <div class="seat dibooking"><center>3</center></div>
+                <div class="seat dibooking"><center>4</center></div>
+                <div class="seat dibooking"><center>5</center></div>
+                <div class="seat"><center>6</center></div>
+            </div>
+            <div class="baris">
+                <div class="seat huruf"><center>B</center></div>
+                <div class="seat"><center>1</center></div>
+                <div class="seat dibooking"><center>2</center></div>
+                <div class="seat"><center>3</center></div>
+                <div class="seat"><center>4</center></div>
+                <div class="seat"><center>5</center></div>
+                <div class="seat"><center>6</center></div>
+            </div>
+                <div class="baris">
+                <div class="seat huruf"><center>C</center></div>
+                <div class="seat"><center>1</center></div>
+                <div class="seat"><center>2</center></div>
+                <div class="seat"><center>3</center></div>
+                <div class="seat dibooking"><center><center>4</center></div>
+                <div class="seat dibooking"><center><center>5</center></div>
+                <div class="seat"><center>6</center></div>
+            </div>
+        
+            <div class="baris">
+                <div class="seat huruf"><center>D</center></div>
+                <div class="seat"><center>1</center></div>
+                <div class="seat"><center>2</center></div>
+                <div class="seat"><center>3</center></div>
+                <div class="seat"><center>4</center></div>
+                <div class="seat"><center>5</center></div>
+                <div class="seat"><center>6</center></div>
+            </div>
+            <div class="baris">
+                <div class="seat huruf"><center>E</center></div>
+                <div class="seat"><center>1</center></div>
+                <div class="seat"><center>2</center></div>
+                <div class="seat"><center>3</center></div>
+                <div class="seat"><center>4</center></div>
+                <div class="seat"><center>5</center></div>
+                <div class="seat"><center>6</center></div>
+            </div>
+            <div class="baris">
+                <div class="seat huruf"><center>F</center></div>
+                <div class="seat"><center>1</center></div>
+                <div class="seat"><center>2</center></div>
+                <div class="seat"><center>3</center></div>
+                <div class="seat"><center>4</center></div>
+                <div class="seat"><center>5</center></div>
+                <div class="seat"><center>6</center></div>
+            </div>
+            <div class="baris">
+                <div class="seat huruf"><center>G</center></div>
+                <div class="seat"><center>1</center></div>
+                <div class="seat"><center>2</center></div>
+                <div class="seat"><center>3</center></div>
+                <div class="seat"><center>4</center></div>
+                <div class="seat"><center>5</center></div>
+                <div class="seat"><center>6</center></div>
+            </div>
+            <div class="baris">
+                <div class="seat huruf"><center>H</center></div>
+                <div class="seat"><center>1</center></div>
+                <div class="seat"><center>2</center></div>
+                <div class="seat"><center>3</center></div>
+                <div class="seat"><center>4</center></div>
+                <div class="seat"><center>5</center></div>
+                <div class="seat"><center>6</center></div>
+            </div>
+        </div>
+
+        <p class="text">
+            Anda akan membooking sebanyak <span id="count">0</span> Ticket dengan total harga Rp <span id="total">0</span> (Tax 1.000)
+        </p>
+        <script src="script.js"></script>
+    </body>
+</html>
